@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <report
+        id="report_test_test"
+        string="Test Test"
+        model="test.test"
+        report_type="qweb-pdf"
+        file="test.test_test"
+        name="test.test_test" />
+
+    <template id="test_test_document">
+        <t t-call="report.external_layout">
+            <div class="page">
+                <div class="oe_structure" />
+                <div class="row">
+                    <span t-field="o.name" />
+                </div>
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <!-- <tbody>
+                        <t
+                            t-foreach="o.LINES"
+                            t-as="i">
+                            <tr>
+                                <td colspan="2">
+                                    <strong t-field="i.name" />
+                                </td>
+                            </tr>
+                        </t>
+                    </tbody> -->
+                </table>
+                <div class="oe_structure" />
+            </div>
+        </t>
+    </template>
+    <template id="test_test">
+        <t t-call="report.html_container">
+            <t
+                t-foreach="doc_ids"
+                t-as="doc_id">
+                <t t-raw="translate_doc(doc_id, doc_model, 'name', 'test.test_test_document')" />
+            </t>
+        </t>
+    </template>
+</odoo>
