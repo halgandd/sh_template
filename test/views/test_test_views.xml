@@ -67,7 +67,7 @@
           </p>
         </field>
     </record>
-    <menuitem name="Test Test" parent="base.menu_main" id="menu_test_test_test" action="action_test_test_form" />
+    <menuitem name="Test Test" id="menu_test_test_test" action="action_test_test_form" />
 
 
 </odoo>
