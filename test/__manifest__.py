@@ -3,7 +3,7 @@
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
 {
     'name': 'test',
-    'version': '1.0',
+    'version': '1.1',
     'author': 'Teclib ERP',
     'website': 'https://www.teclib-erp.com',
     'summary': "Teclib'ERP",
@@ -28,6 +28,7 @@ description
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
+        'report/test_test_report.xml',
         'report/test_test_report.xml',
         'report/test_test_report.xml',
         'report/test_test_report.xml',
