@@ -31,6 +31,7 @@ description
         'report/test_test_report.xml',
         'report/test_test_report.xml',
         'report/test_test_report.xml',
+        'report/test_test_report.xml',
         'views/test_test_views.xml',
     ],
     'auto_install': False,
