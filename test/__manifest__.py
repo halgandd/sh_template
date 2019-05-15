@@ -29,6 +29,7 @@ description
         'security/security.xml',
         'security/ir.model.access.csv',
         'views/test_test_views.xml',
+        'views/test_test_views.xml',
     ],
     'auto_install': False,
     'installable': True,
