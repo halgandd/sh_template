@@ -17,7 +17,7 @@
     'category': 'Generic Modules/Teclib ERP',
     'complexity': 'easy',
     'description': '''
-Module de test sh
+description
     ''',
     'qweb': [
     ],
@@ -28,6 +28,7 @@ Module de test sh
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
+        'views/test_test_views.xml',
     ],
     'auto_install': False,
     'installable': True,
