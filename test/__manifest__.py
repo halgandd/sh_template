@@ -28,7 +28,7 @@ description
     'data': [
         'security/security.xml',
         'security/ir.model.access.csv',
-        'views/test_test_views.xml',
+        'report/test_test_report.xml',
         'views/test_test_views.xml',
     ],
     'auto_install': False,
