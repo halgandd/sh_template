@@ -13,7 +13,7 @@
             <div class="page">
                 <div class="oe_structure" />
                 <div class="row">
-                    <span t-field="o.name" />
+                    <span t-field="doc.name" />
                 </div>
                 <table class="table table-condensed">
                     <thead>
@@ -23,7 +23,7 @@
                     </thead>
                     <!-- <tbody>
                         <t
-                            t-foreach="o.LINES"
+                            t-foreach="doc.LINES"
                             t-as="i">
                             <tr>
                                 <td colspan="2">
